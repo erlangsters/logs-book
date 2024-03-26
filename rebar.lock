@@ -1,0 +1,4 @@
+[{<<"book_storage">>,
+  {git,"https://github.com/erlangsters/book-storage.git",
+       {ref,"af83b71e757a5bd16d02bbc04debd7b27753b5db"}},
+  0}].

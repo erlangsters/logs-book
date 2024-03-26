@@ -1,0 +1,18 @@
+{application, logs_book, [
+  {description, "Local queryable logs for the BEAM."},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    book_storage
+  ]},
+  {env, []},
+  {modules, [
+    logs_book
+  ]},
+  {licenses, ["MIT"]},
+  {links, [
+    {"GitHub", "https://github.com/erlangsters/logs-book"}
+  ]}
+]}.
